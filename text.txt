@@ -1,0 +1,5 @@
+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
+
+Admin URL: https://app.netlify.com/sites/react-app-english
+URL:       https://react-app-english.netlify.app
+Site ID:   fe9ff10c-08fe-4a7a-9f50-002b37b6c5f6
