@@ -2,7 +2,7 @@
   text-align: center;
 }
 body{
-  background: #eee;
+  background: #afb393;
 }
 .App-logo {
   height: 40vmin;
@@ -58,7 +58,7 @@ body{
   display: none;
   text-align: left;
   margin: 15px 15px 0px 15px;
-  color: #5b5c5c;
+  color: #323636;
   font-weight: 500;
 }
 .story-name{
@@ -94,6 +94,7 @@ body{
 
 .active div{
   display: block;
+  line-height: 1.9;
 }
 /* .interview-questions div{
   display: none;

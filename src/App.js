@@ -18,9 +18,9 @@ function App() {
   const [stories, setStories] = useState([]);
   const [interview, setInterview] = useState([]);
   const [divActive, setDivActive] = useState({
-    sentence: true,
+    sentence: false,
     stories: false,
-    interview: false
+    interview: true
   });
   const [active, setActive] = useState(null)
   const [screenType, setScreenType] = useState('sentence')
@@ -42,6 +42,10 @@ const officaily =  "https://api.jsonbin.io/v3/b/639cb4da15ab31599e1e12ce"
 const vocabulary =  "https://api.jsonbin.io/v3/b/639cb4f8dfc68e59d56a110a"
 const storiesUrl =  "https://api.jsonbin.io/v3/b/639cb59201a72b59f232627a"
 const interviewUrl =  "https://api.jsonbin.io/v3/b/639deaae15ab31599e1ebb2c"
+
+useEffect(() => {
+  
+});
 
 async function getSentence() {
     return new Promise((resolve, reject) => {
@@ -163,6 +167,13 @@ async function getInterview() {
     //   .then((data) => {
     //     setSentence(data);
     //   })
+
+    getInterview()
+        .then((data) => {
+          console.log("interview")
+          setInterviewQuestion(data)
+          //setInterview(data);
+        })
 
   }, []);
 
@@ -292,7 +303,7 @@ async function getInterview() {
             <option value="vocabulary">Vocabulary</option>
             <option value="officaily">Officaily</option>
             <option value="stories">Story</option>
-            <option value="interview">Interview</option>
+            <option value="interview" selected>Interview</option>
           </select>
           {
             divActive.sentence &&
