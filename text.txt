@@ -1,5 +1,12 @@
 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
 
+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
+
 Admin URL: https://app.netlify.com/sites/react-app-english
 URL:       https://react-app-english.netlify.app
 Site ID:   fe9ff10c-08fe-4a7a-9f50-002b37b6c5f6
+
+git branch -m gh-pages gh-pages
+git fetch origin
+git branch -u origin/gh-pages gh-pages
+git remote set-head origin -a

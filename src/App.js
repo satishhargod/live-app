@@ -298,11 +298,11 @@ async function getInterview() {
       <button className="filter-button" >Node Question</button> */}
           <select name="cars" class="select-for-sentence" onChange={handleSelectChange}>
             <option value="all">All</option>
-            <option value="sentence">Sentence</option>
+            {/* <option value="sentence">Sentence</option>
             <option value="dailylife">Daily Uses</option>
             <option value="vocabulary">Vocabulary</option>
             <option value="officaily">Officaily</option>
-            <option value="stories">Story</option>
+            <option value="stories">Story</option> */}
             <option value="interview" selected>Interview</option>
           </select>
           {
