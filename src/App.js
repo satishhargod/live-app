@@ -11,6 +11,7 @@ import parse from 'html-react-parser';
 //   getVocabulary,
 //   getInterview
 // } from './fetchdata'
+import interviewData from './data/interview.json';
 
 function App() {
   const [sentence, setSentence] = useState([]);
@@ -143,22 +144,7 @@ async function getStories() {
 }
 
 async function getInterview() {
-    return new Promise((resolve, reject) => {
-        let url = interviewUrl
-        fetch(url, {
-            method: 'get', // *GET, POST, PUT, DELETE, etc.
-            mode: 'cors', // no-cors, *cors, same-origin
-            headers: headers
-        }).then((response) => response.json())
-            .then((data) => {
-                resolve(data)
-                //console.log('Success:', data);
-            })
-            .catch((error) => {
-                reject(error)
-                //console.error('Error:', error);
-            });;
-    })
+    return interviewData
 }
   ////-----------------------------------------------------------///
 
@@ -268,8 +254,6 @@ async function getInterview() {
   function handleInputChange(event) {
     setValue(event.target.value)
     //this.setState({value: event.target.value});
-
-
   }
 
   // async function handleSubmit() {
@@ -298,12 +282,13 @@ async function getInterview() {
       <button className="filter-button" >Node Question</button> */}
           <select name="cars" class="select-for-sentence" onChange={handleSelectChange}>
             <option value="all">All</option>
-            {/* <option value="sentence">Sentence</option>
+            <option value="impinterview" selected>Imp Interview</option>
+            <option value="interview" selected>Interview</option>
+            <option value="sentence">Sentence</option>
             <option value="dailylife">Daily Uses</option>
             <option value="vocabulary">Vocabulary</option>
             <option value="officaily">Officaily</option>
-            <option value="stories">Story</option> */}
-            <option value="interview" selected>Interview</option>
+            <option value="stories">Story</option>
           </select>
           {
             divActive.sentence &&
