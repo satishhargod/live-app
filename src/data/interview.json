@@ -10,15 +10,30 @@
       "answer": "<div className='self-intro'>  I am Satish Hargod and<br/> I have 5+ years of experience as a Backend developer. And also some decent knowledge in frontend also.<br/> I have knowledge about some technologies like - Node js, express and React js<br/> I start worked with react and node js projects! But I have more experience in node js profile as compared to react js. Have worked on some databse like sql postgres and mongodb, also have experience in project management tools like jira and asana and For the version control I have used bitbucket, gitlab, GitHub. <br/> <br/> In web development I have worked on various domains like healthcare, Edtech, ecommerce realtime chat applications, I have also worked on rest api's and 3 party api's like shopfiy twilio tracking api <br/> <br/> I have aware on user wallet system we have managed user wallet and user transactions and also worked on push notifications <br/> <br/> If we are discuss about Payment Gateway i have hands on experience on stripe and paypal Payment Gateway  <br/> <br/> Okay aprat from this One of my best project. In this project i learned a lot of things. this project name is avea project. Avea is used for managing the orders placed from different platforms and also pulling the same. We have handles many plateforms like  i.e. Amazon, Walmart, ebay, Groupon and avenue  in single application. in this project i have also intigrated web scoket for processing bar when admin is upload any type of csv file's like orders products and customers. we are managing many feature like genrate pdf and upload and export csv<br/><br/>Currently i am working rise project this is my latest one that is no mention in my resume Rise project is reprsent for health care In this project we are managing for role <br/> admin app user castmamber and health expert <br/> admin can create a feed videos for health tips <br/> health expert create 4 type video 1. seasone episode segment lession <br/> Cast mamber also create for tha same but different is cast mamber allow to login in mobile aap but heath expert is not <br/> App user can see feed video seasone episode lesson and segment we are mentend all type video like comment user watch or not In this app also we have implemented chat and discussion board and notifications <br> it's all about me, Thank's</li></ul> <br/> </div>"
     },
     {
+      "question": "Tell me about your last journey?",
+      "type": "javascript",
+      "answer": "<div className='self-intro'> I joined Dexbytes as an intern, where I learned a lot. Dexbytes allowed me to work with various technologies, including PHP, React.js, and Node.js. I primarily focused on backend development, REST APIs, and third-party APIs. I worked on many projects, but my best project at Dexbytes was Avea. I learned a great deal from this project, where my role was as a full-stack developer working with React and Node.js.</br> After that, I switched companies for career and personal growth. I wanted to experience different work environments and cultures. I joined Thoughtwin IT Solutions as a Senior Developer, where I started working on blockchain projects. My responsibilities included creating Node.js APIs, handling subgraphs, and maintaining transaction history. I completed three projects there before moving to New Rise App, where I worked as a Senior MERN Stack Developer. </br> I then joined eSparkBiz for further personal growth. I led the MaxScaffold project and am currently working on the PetApp project. </div>"
+    },
+    {
       "question": "Tell me somthing about recent project?",
       "type": "javascript",
       "answer": "<div class='markdown prose w-full break-words dark:prose-invert light'><p><strong>iPoint Pet App</strong> is a powerful Software as a Service (SaaS) platform designed to help animal hospitals manage patients efficiently in one place. In this app, users can create and manage patient profiles. Additionally, pet information, along with medical history, can be added.</p><p>This project includes many modules:</p><ul><li><strong>Patient Contact Details:</strong> Add multiple contacts with locations.</li><li><strong>Treatment Plan Module:</strong> Manage and document treatment plans.</li><li><strong>Task Module:</strong> Organize and track tasks.</li><li><strong>Invoice Generation:</strong> Create invoices efficiently.</li><li><strong>Custom Settings:</strong> Set default values such as country, state, and city, date formats across the app, page limits, and default text.</li></ul><p>The main module in this project is the <strong>Appointment System</strong>, designed to simplify the process of booking and managing appointments for patients.</p><ol><li><p><strong>Booking an Appointment:</strong></p><ul><li>Choose a doctor based on specialty and availability.</li><li>Pick an available time slot from the calendar.</li><li>Enter necessary details and confirm the appointment.</li><li>View all upcoming appointments.</li></ul><p>The appointment module also offers options for recurring events, allowing users to schedule appointments on a daily, weekly, monthly, or yearly basis.</p></li><li><p><strong>Managing Appointments:</strong></p><ul><li>Easily change or cancel appointments if needed.</li><li>Receive automatic reminders before the appointment to avoid missing it.</li></ul></li></ol><p>This module also provides a report facility, enabling users to generate reports according to treatment.</p><hr></div>"
     },   
     {
+      "question": "Tell me somthing about recent project?",
+      "type": "javascript",
+      "answer": "iPoint Pet App is a powerful Software as a Service (SaaS) platform designed to help animal hospitals manage patients efficiently in one place. In this app, users can create and manage patient profiles. Additionally, pet information, along with medical history, can be added.This project includes many modules:Patient Contact Details: Add multiple contacts with locations.Treatment Plan Module: Manage and document treatment plans.Task Module: Organize and track tasks.Invoice Generation: Create invoices efficiently.Custom Settings: Set default values such as country, state, and city, date formats across the app, page limits, and default text.The main module in this project is the Appointment System, designed to simplify the process of booking and managing appointments for patients.Booking an Appointment:Choose a doctor based on specialty and availability.Pick an available time slot from the calendar.Enter necessary details and confirm the appointment.View all upcoming appointments.The appointment module also offers options for recurring events, allowing users to schedule appointments on a daily, weekly, monthly, or yearly basis.Managing Appointments:Easily change or cancel appointments if needed.Receive automatic reminders before the appointment to avoid missing it.This module also provides a report facility, enabling users to generate reports according to treatment."
+    }, 
+    {
       "question": "Project Challenges",
       "type": "javascript",
       "answer": "<div class='markdown prose w-full break-words dark:prose-invert light'><p>We are facing issues with generating dynamic reports. These reports are created based on dynamic option selections, adding dynamic snippets and text. This causes many design problems, such as spacing issues, page breaks, and content shifts because the client makes too many changes at runtime.</p> <p>Additionally, we have another challenge: the client wants this project to function offline as well. To address this, I worked on the backend for syncing management, and my colleague worked on Electron. In this module, we created APIs for syncing logs according to the user's offline activity. Electron stores all offline activity locally, and when the user comes online, the data is synced with the online database.</p></div>"
-    },   
+    },  
+    {
+      "question": "http and https difference",
+      "type": "javascript",
+      "answer": "<div className='self-intro'> HTTPS is HTTP with encryption and verification. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses, and to digitally sign those requests and responses. As a result, HTTPS is far more secure than HTTP. </div>"
+    }, 
     {
       "question": "AWS(Lambda SQS,SNS)",
       "type": "javascript",
@@ -28,6 +43,26 @@
       "question": "What is java script?",
       "type": "javascript",
       "answer": "<div >JavaScript is a dynamic programming and scripting language. we can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.it's flow ECMA script standard. Using this language we can create multipule type of applications like web application, mobile application, smartwatch apps and gaming etc. JavaScript is now capable of front-end as well as back-end development. <ul> Advantages of JavaScript<br/><li> <b>Speed -: </b> JavaScript is very fister as compare other language</li> <li> <b>Simplicity -: </b> JavaScript is easy to understand and learn. The structure is simple for the users as well as the developers. </li> <li> <b>Popularity -: </b> Since all modern browsers support JavaScript, it is seen almost everywhere. All the famous companies use JavaScript as a tool including Google, Amazon, PayPal, etc.. </li> <li> <b>Server Load -:</b> As JavaScript operates on the client-side, data validation is possible on the browser itself rather than sending it off to the server. In case of any discrepancy, the whole website needs not to be reloaded. </li> <li> <b>Versatility -: </b> JavaScript is now capable of front-end as well as back-end development. Back-end development uses NodeJS while many libraries help in front-end development like AngularJS, ReactJS, etc.. </li></ul> <ul> Disadvantages of JavaScript <li> <b>Client-side Security -: </b> </li><li> <b>Lack of Debugging Facility -: </b> </li><li> <b>Single Inheritance -:</b> JavaScript only supports single inheritance and not multiple inheritance. Some programs may require this object-oriented language characteristic. </li></ul> </div>"
+    },
+    {
+      "question": "What is Class?",
+      "type": "javascript",
+      "answer": "<div >In JavaScript, a class is a blueprint for creating objects with shared properties and methods. Classes in JavaScript were introduced in ECMAScript 6 (ES6) and provide a syntactical sugar over the existing prototype-based inheritance.</div>"
+    },
+    {
+      "question": "What is the difference between a constructor and a class in JavaScript?",
+      "type": "javascript",
+      "answer": "<div >A constructor is a function that creates an object, while a class is a blueprint for creating objects. In JavaScript, classes are syntactical sugar over constructor functions.</div>"
+    },    
+    {
+      "question": "What is Inheritance?",
+      "type": "javascript",
+      "answer": "<div >JavaScript classes support inheritance using the extends keyword. This allows a class to inherit properties and methods from another class.</div>"
+    },
+    {
+      "question": "What is Polymorphism?",
+      "type": "javascript",
+      "answer": "<div >Polymorphism is one of the core concepts of object-oriented programming languages where poly means many and morphism means transforming one form into another. Polymorphism means the same function with different signatures is called many times. In real life, for example, a boy at the same time may be a student, a class monitor, etc. So a boy can perform different operations at the same time. This is called polymorphism. </div>"
     },
     {
       "question": "What is ECMA Script?",
@@ -69,6 +104,11 @@
       "type": "javascript",
       "answer": "<div > Sometimes, we need to execute a function right after we declare.<br> An IIFE (Immediately Invoked Function Expression) is a JavaScript function that gets invoked immediately. In simple words, it runs as soon as it is defined. It is a way to execute functions immediately, as soon as they are created. </br> (function () { statements })(); </div>"
     },
+    {
+      "question": "Implicit vs. Explicit Conversion?",
+      "type": "javascript",
+      "answer": "<div > Implicit - Implicit type conversion is when JavaScript automatically converts a value to a different data type based on the context </br> let num = 42 + true;  // 43 </br> Explicit - explicit convert a value to a specific data type </br> let num = parseInt('42');  // 42</div>"
+    },    
     {
       "question": "What is a generator function in javascript?",
       "type": "javascript",
@@ -117,8 +157,18 @@
     {
       "question": "JavaScripts method?",
       "type": "javascript",
-      "answer": "<div><ul> <li><b>map</b> The map() method creates a new array with the results of calling a function for every array element.</li> <li><b>filter</b> The filter() method returns a new array with all elements that pass the test defined by the given function.</li> <li><b>foreach</b> The forEach() method executes a provided function for each array element.</li> <li><b>reduce</b> The reduce() method executes a reducer function on each element of the array and returns a single output value.</li> <li><b>find</b> The find() method returns the value of the first array element that satisfies the provided test function.</li> <li><b>shift</b> The shift() method removes the first element from an array and returns that element.</li> <li><b>unshift</b> The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.</li> <li><b>reverse</b> The reverse() method returns the array in reverse order.</li> <li><b>sort</b> The sort() method sorts the items of an array in a specific order (ascending or descending).</li> <li><b>slice</b> The slice() method returns a shallow copy of a portion of an array into a new array object.</li> <li><b>splice</b> The splice() method returns an array by changing (adding/removing) its elements in place.</li> </ul></div>"
+      "answer": "<div><ul> <li><b>map</b> The map() method creates a new array with the results of calling a function for every array element.</li> <li><b>filter</b> The filter() method returns a new array with all elements that pass the test defined by the given function.</li> <li><b>foreach</b> The forEach() method executes a provided function for each array element.</li> <li><b>reduce</b> The reduce() method executes a reducer function on each element of the array and returns a single output value.</li> <li><b>find</b> The find() method returns the value of the first array element that satisfies the provided test function.</li> <li><b>shift</b> The shift() method removes the first element from an array and returns that element.</li> <li><b>unshift</b> The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.</li> <li><b>reverse</b> The reverse() method returns the array in reverse order.</li> <li><b>sort</b> The sort() method sorts the items of an array in a specific order (ascending or descending).</li> <li><b>slice</b> The slice() method returns a shallow copy of a portion of an array into a new array object.</li> <li><b>splice</b> The splice() method returns an array by changing (adding/removing) its elements in place.</li><li><b>Array pop()</b> - Array pop() Method is used to remove the last element of the array and also returns the removed element. and  If the array is empty, then this function returns undefined.</li> <li>Array push()</li></ul></div>"
     },
+    {
+      "question": "JavaScripts method?",
+      "type": "javascript",
+      "answer": "<div><ul> <li>indexOf() returns the position of the first occurrence of a value in a string. The indexOf() method returns -1 if the value is not found. The indexOf() method is case sensitive.</li>  <li>search() searches a string for a value and returns the position of the first match:</li></ul></div>"
+    },  
+    {
+      "question": "JavaScripts array method?",
+      "type": "javascript",
+      "answer": "<div><ul> <li>[1,2,3].length; //? 3</li> <li>[1,2,3].push(4); //? [1,2,3,4] </li> <li> [1,2,3]. unshift(0); //? [0,1,2,3] *</li> <li>[1,2,3].pop(); //? [1,2] *</li> <li>[1,2,3]. shift(); //? [2,3] *</li> <li>[1,2,3].at(2); //? 3</li> <li>[1,2,3].indexOf(3); //? 2</li> <li>[1,2,3]. includes (3); //? true</li> <li>[1,2,3].map((num) => Math.pow(num, 2)); //? [1, 4, 9]</li> <li>[1,2,3].filter((num) => num % 2); //? [1,3] [1,2,3]. every ((num) => num > 1); //? false [1,2,3]. some ( (num) => num == 3); //? true</li> <li>[1,2,3]. fill(10); //? [10, 10, 10]</li> <li>[1,2,3]. reduce ((acc, num) => acc + num, 0); //? 6 [1,2,3].concat([4,5]); //? [1,2,3,4,5]</li> <li>[1,2,3]. reverse(); //? [3,2,1]</li> <li>[2,1,3].sort(); //? [1,2,3]</li> <li>[1,2,3].join('-'); //? 1-2-3</li> <li>[1,2, [3]]. flat(); //? [1,2,3]</li> <li>[1,2,3]. findIndex ((num) => num === 2); //? 1</li> <li>[1,2,3].find((num, i) => i === 1); //? 2</li> <li>[1,2,3].toString(); //? 1,2,3</li> <li>[1,2,3].slice(1,3); //? [2,3]</li> <li>[1,4].splice(1, 0, 2, 3); //? [1,2,3,4]</li> <li>Array.isArray('[1,2,3]'); //? false </li> <li>Array.from('123'); //? ['1', '2', '3']</li></ul></div>"
+    },  
     {
       "question": "About loops?",
       "type": "javascript",
@@ -127,7 +177,7 @@
     {
       "question": "Difference between normal funcation and arrow funcation",
       "type": "javascript",
-      "answer": "<div><ul><li>Argument object not available in arrow function</li><li>Regular function created using function declaration or expressions, Arrow function we can declar without unsing function key word.</li> <li>we don't use constarction in array function</li><li>Arrow function do not have there own this </li><li>Implicitly return by Arrow function.</li></ul></div>"
+      "answer": "<div><ul><li>Argument object not available in arrow function</li><li>Regular function created using function declaration or expressions, Arrow function we can declar without unsing function key word.</li> <li>we don't use constarction in arraw function</li><li>Arrow function do not have there own this </li><li>Implicitly return by Arrow function.</li> <li>Arrow functions cannot be accessed before initialization </li></ul></div>"
     },
     {
       "question": "Explain call(), apply() and, bind() methods?",
@@ -144,6 +194,16 @@
       "type": "javascript",
       "answer": "The spread operator is commonly used to make copies of JS objects. we can copy with two types. Deep copy and shallow copy. A deep copy means we can copy nested objects. But in shallow copy means we can copy only single object. Using this operator makes the code concise and enhance its readability."
     },
+    {
+      "question": "What is Deep copy and shallow copy?",
+      "type": "javascript",
+      "answer": "<ul ><li class='' ><strong>Shallow copy: </strong>means that <strong >only the first level of he object is copied</strong>. Deeper levels are referenced. A shallow copy can be achieved using the spread operator (…) or using Object.assign():</li><li ><strong >Deep copy: </strong>means that <strong>all levels of the object are copied</strong>. This is a true copy of the object. A deep copy can be achieved using JSON.parse() + JSON.stringify():</li></ul>"
+    },
+    {
+      "question": "JavaScript RangeError: Maximum Call Stack Size Exceeded?",
+      "type": "javascript",
+      "answer": "<ul ><li class='' ><The JavaScript RangeError: Maximum call stack size exceeded happens when a function keeps calling itself without any condition </li></ul>"
+    },   
     {
       "question": "What is a callback hall?",
       "type": "javascript",
@@ -243,6 +303,21 @@
       "question": "What are the modules in Node.js?",
       "type": "node",
       "answer": " <div className='node-answer'>  Node.js has many modules to provide the basic functionality needed for a web application. Some of them include:<ul> <li><b>HTTP - </b>Includes classes, methods, and events to create a Node.js HTTP server </li>                            <li><b>util - </b>Includes utility functions useful for developers</li>                            <li><b>fs - </b> Includes events, classes, and methods to deal with file I/O operations</li>                            <li><b>url - </b> Includes methods for URL parsing</li>                            <li><b>query string -</b> Includes methods to work with query string</li>                            <li><b>stream -</b> Includes methods to handle streaming data</li>                        </ul>                    </div>"
+    },     
+    {
+      "question": "What is fs module in Node.js?",
+      "type": "node",
+      "answer": " <div className='node-answer'>  <ul><li> fs.exists() method to Check that the directory exists or not</li> <li> fs.mkdir for create directory</li> <li> fs.mkdir for create directory</li> </ul> </div>"
+    },
+    {
+      "question": "What is differences between module.exports and exports:?",
+      "type": "node",
+      "answer": " <div className='node-answer'>  <table> <thead> <tr> <th> <p style='text-align:center'>S.no</p> </th> <th> <p style='text-align:center'>Module.exports</p> </th> <th> <p style='text-align:center'>Exports</p> </th> </tr> </thead> <tbody> <tr> <td> <p style='text-align:center'>1</p> </td> <td>When we want to export a single class/variable/function from one module to another module, we use the <i>module.exports</i> way.</td> <td>When we want to export multiple variables/functions from one module to another, we use <i>exports</i> way.</td> </tr> <tr> <td> <p style='text-align:center'>2.</p> </td> <td>It is the object reference that gets returned from the require() calls.</td> <td><i>exports</i> is not returned by require(). &nbsp;It is just a reference to <i>module.exports</i>.</td> </tr> </tbody> </table> </div>"
+    },
+    {
+      "question": "Difference Between Local Storage, Session Storage, And Cookies?",
+      "type": "node",
+      "answer": " <div className='node-answer'> <table> <thead> <tr> <th style='width: 233.333px;'><span>Local Storage</span></th> <th style='width: 233.333px;'><span>&nbsp;Session Storage</span></th> <th style='width: 233.333px;'><span>Cookies&nbsp;</span></th> </tr> </thead> <tbody> <tr> <td style='width: 233.333px;'><span>The storage capacity of local storage is 5MB/10MB</span></td> <td style='width: 233.333px;'><span>The storage capacity of session storage is 5MB</span></td> <td style='width: 233.333px;'><span>The storage capacity of Cookies is 4KB</span></td> </tr> <tr> <td style='width: 233.333px;'><span>As it is not session-based, it must be deleted via javascript or manually</span></td> <td style='width: 233.333px;'><span>It’s session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed</span></td> <td style='width: 233.333px;'><span>Cookies expire based on the setting and working per tab and window&nbsp;</span></td> </tr> <tr> <td style='width: 233.333px;'><span>The client &nbsp;can read and write local storage</span></td> <td style='width: 233.333px;'><span>The client can read and write local storage</span></td> <td style='width: 233.333px;'><span>Both clients and servers can read and write the cookies</span></td> </tr> <tr> <td style='width: 233.333px;'><span>There is no transfer of data to the server</span></td> <td style='width: 233.333px;'><span>There is no transfer of data to the server</span></td> <td style='width: 233.333px;'><span>Data transfer to the server is exist</span></td> </tr> <tr> <td style='width: 233.333px;'><span>Supported by all browsers, including older ones.</span></td> <td style='width: 233.333px;'><span>Supported by all browsers, including older ones</span></td> <td style='width: 233.333px;'><span>It is supported by all the browser including older browser</span></td> </tr> </tbody> </table> </div>"
     },
     {
       "question": "Why is Node.js preferred over other backend technologies like Java and PHP?",
@@ -287,12 +362,22 @@
     {
       "question": "What is an Event Loop in Node.js?",
       "type": "node",
-      "answer": " <div className='node-answer'>The event loop is the secret behind of JavaScript’s asynchronous programming. javascript executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. </br> If we are discuss how it works in node js. So node js us the concept of Libuv, Libuv is a espesial library build for node js but we can use application as well it's provide a concept of non blooking i/o now it's build in c++ language </br> </br> If we are discuss about how  event loop works. so basicaly event loop monitaring callstack and callback queue </br> When i execute my code and any function firstly code store on call stack and all synchronous operations run one by one and asynchronous operations move on the web api with desired time when time completed after that promises and settimeout  move on the callback queue, If the Call Stack is empty, the Event Loop will take the task first from  micro task queue then from the macro queue  of callback queue. </br></br>  macroTasks: setTimeout, setInterval, setImmediate, requestAnimationFrame, I/O, UI rendering </br> microTasks: process.nextTick, Promises, queueMicrotask, MutationObserver </div>"
+      "answer": " <div className='node-answer'>The event loop is the secret behind of JavaScript’s asynchronous programming. javascript executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. </br> If we are discuss how it works in node js. So node js us the concept of Libuv, Libuv is a espesial library build for node js but we can use application as well it's provide a concept of non blooking i/o now it's build in c++ language </br> </br> If we are discuss about how  event loop works. so basicaly event loop monitaring callstack and callback queue </br> When i execute my code and any function firstly code store on call stack and all synchronous operations run one by one and asynchronous operations move on the web api with desired time when time completed after that promises and settimeout  move on the callback queue, If the Call Stack is empty, the Event Loop will take the task first from  micro task queue then from the macro queue  of callback queue. </br></br> microTasks: process.nextTick, Promises, queueMicrotask, MutationObserver</br>  macroTasks: setTimeout, setInterval, setImmediate, requestAnimationFrame, I/O, UI rendering  </div>"
     },
+    {
+      "question": "Difference between setImmediate() and process.nextTick() methods?",
+      "type": "node",
+      "answer": "<div className='node-answer'> process.nextTick() fires immediately as compare to setImmediate() beacuse when the excute event loop all asynchronous opration move on the api queue and event loop excute first micro task and after that macro task and process.nextTick is micro task and setImmediate is macro task</div>"
+    },  
+    {
+      "question": "what is the difference between microtasks and macroTasks?",
+      "type": "node",
+      "answer": "<div className='node-answer'>  A macro task is a collection of distinct and independent tasks. Microtasks are minor tasks that update the state of an application and should be completed before the browser moves on to other activities, such as re-rendering the user interface. Promise callbacks and DOM modification changes are examples of microtasks.</div>"
+    },     
     {
       "question": "What is the package.json file?",
       "type": "node",
-      "answer": "<div className='node-answer'>                        The package.json file holds the metadata for a particular project. The package.json file is found in the root directory of any Node application. It contains information such as name, description, author, script, and dependencies. </div>"
+      "answer": "<div className='node-answer'> The package.json file holds the metadata for a particular project. The package.json file is found in the root directory of any Node application. It contains information such as name, description, author, script, and dependencies. </div>"
     },
     {
       "question": "What is the package-lock.json file?",
@@ -308,6 +393,16 @@
       "question": "What is the nodemon?",
       "type": "node",
       "answer": "<div>nodemon is a tool that helps develop Node.js based applications by automatically restarting</div>"
+    },
+    {
+      "question": "What is the morgan?",
+      "type": "node",
+      "answer": "<div>Morgan is an HTTP request level Middleware. It is a great tool that logs the requests along with some other information depending upon its configuration and the preset used. It proves to be very helpful while debugging and also if you want to create Log files.</div>"
+    },
+    {
+      "question": "How to change Node console font color?",
+      "type": "node",
+      "answer": "<div>Changing color using chalk module</div>"
     },
     {
       "question": "What is difference between dependencies and devdependencies?",
@@ -375,6 +470,12 @@
       "answer": "<div>The buffers module provides a way of handling streams of binary data. The Buffer object is a global object in Node. js, and it is not necessary to import it using the require keyword.</div>"
     },
     {
+      "question": "What is String Decoder?",
+      "type": "node",
+      "answer": "<div>NodeJS StringDecoder is used to decode the buffer data into a string. Buffer is used to storing the streams of binary data, since this binary data can only understandable by a computer, it is required to convert it into a string so that humans can read it. </br> </br>There is a method buffer.toString() provided by the buffer class which is also used to convert the buffer data into a string, the difference is that StringDecoder provides extra support for UTF encoding. </div>"
+    },
+    
+    {
       "question": "Explain the concept of middleware in Node.js?",
       "type": "node",
       "answer": "<div className='node-answer'>Middleware is the function that works between the request and the response cycle. Middleware gets executed after the server receives the request and before the controller sends the response.</div>"
@@ -383,11 +484,6 @@
       "question": "List the various Node.js timing features?",
       "type": "node",
       "answer": "<div className='node-answer'> It includes setTimeout(), setImmediate(), and setInterval() methods. </br></br> 1. <b>setTimeout()</b> Method:<ul>  Syntax: </br></br>setTimeout(callback, delay, args )</br><li><strong>callback:</strong> This parameter holds the function that to be executed.</li><li><strong>delay:</strong> This parameter holds the number of milliseconds to wait before calling the callback function.</li><li><strong>args:</strong> This parameter holds the optional parameter.</li></ul> </br></br> 2. <b>setImmediate()</b> Method:<ul>  Syntax: </br></br>setImmediate(callback, args)</br><li><strong>callback:</strong> This parameter holds the function to call at the end of this turn of the Node.js Event Loop.</li><li><strong>args:</strong> This parameter holds the optional arguments for the function.</li></ul></br></br> 3. <b>setInterval()</b> Method:<ul>  Syntax: </br></br>setInterval(callback, delay, args)</br><li><strong>callback:</strong> This parameter holds the function that to be called when the timer elapse.</li><li><strong>delay:</strong> This parameter holds the number of milliseconds to wait before calling the vallback function.</li><li><strong>args:</strong> This parameter holds the optional arguments for the function.</li></ul></div>"
-    },
-    {
-      "question": "Difference between setImmediate() and process.nextTick() methods?",
-      "type": "node",
-      "answer": "<div className='node-answer'> The process.nextTick() method is used to add a new callback function at the start of the next event queue. it is called before the event is processed. The setImmediate is called at the check phase of the next event queue. It is created in the poll phase and is invoked during the check phase. </div>"
     },
     {
       "question": "What is the purpose of __filename variable?",
@@ -438,11 +534,6 @@
       "question": "Explain the use of passport module in Node.js?",
       "type": "node",
       "answer": "<div>The passport module is used for adding authentication features to our website or web app. It implements authentication measure which helps to perform sign-in operations.</div>"
-    },
-    {
-      "question": "What is String Decoder?",
-      "type": "node",
-      "answer": "<div>NodeJS StringDecoder is used to decode the buffer data into a string. Buffer is used to storing the streams of binary data, since this binary data can only understandable by a computer, it is required to convert it into a string so that humans can read it. </br> </br>There is a method buffer.toString() provided by the buffer class which is also used to convert the buffer data into a string, the difference is that StringDecoder provides extra support for UTF encoding. </div>"
     },
     {
       "question": "What is TLS/SSL?",
@@ -504,7 +595,12 @@
     {
       "question": "What is error handeller in node js?",
       "type": "node",
-      "answer": ""
+      "answer": "<div> <span> NodeJS provides various mechanisms for handling errors, including try/catch blocks, error events, and error-first callbacks.</span> </br><strong>Try/Catch Blocks:</strong> We can handle synchronous errors using try catch block </br><strong>Error Events:</strong> Using on error event notify asynchronously errors </br><strong>Error-First Callbacks:</strong>NodeJS follows the convention of “error-first callbacks,” where callback functions receive an error object as the first argument.</br><strong>Promises:</strong>When using promises in NodeJS, developers can use the .catch() method to handle errors asynchronously. Promises allow for more concise and readable error handling compared to callback-based approaches.</div>"
+    },
+    {
+      "question": "What is debounced?",
+      "type": "react",
+      "answer": "Debouncing is a technique used to delay a network request until a certain amount of idle time has passed. This is particularly useful for reducing the number of requests sent to a server for example we have create search"
     },
     {
       "question": "What is state?",

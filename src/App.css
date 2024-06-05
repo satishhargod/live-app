@@ -98,7 +98,9 @@ body{
   display: block;
   line-height: 1.9;
 }
-
+table tr {
+  border: 0.3px solid #dfdfdf;
+}
 /* .interview-questions div{
   display: none;
   text-align: left;
