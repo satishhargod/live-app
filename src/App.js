@@ -164,7 +164,6 @@ async function getInterview() {
   }, []);
 
   function handleSelectChange(event) {
-    console.log(divActive)
     if (event.target.value == "all") {
 
       setSentence([]);
@@ -255,13 +254,23 @@ async function getInterview() {
     setValue(event.target.value)
     //this.setState({value: event.target.value});
   }
+  function handleInputChange(event) {
+    setValue(event.target.value)
+    //this.setState({value: event.target.value});
+  }
 
   // async function handleSubmit() {
   //   //insertsentence = insertsentence.push({ "sentence": value })
   // }
 
-  function handleSubmit() {
-    console.log("save")
+  function getRandomObjectFromArray(arr) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+  }
+
+  function rendomQuestion() {
+    const randomObject = getRandomObjectFromArray(interviewData);
+    setInterviewQuestion([randomObject])
   }
 
   let snumber = 1
@@ -290,6 +299,7 @@ async function getInterview() {
             <option value="officaily">Officaily</option>
             <option value="stories">Story</option>
           </select>
+          <button onClick={rendomQuestion} className="filter-button" >Practice Question</button>
           {
             divActive.sentence &&
             sentence.map((item, index) => (
@@ -307,9 +317,7 @@ async function getInterview() {
                 </div>
               </>
             ))
-
           }
-
           {
             divActive.stories &&
             <>
@@ -327,7 +335,6 @@ async function getInterview() {
               }
             </>
           }
-
           {
             divActive.interview &&
             <>

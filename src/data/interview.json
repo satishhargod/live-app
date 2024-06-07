@@ -180,6 +180,11 @@
       "answer": "<div><ul><li>Argument object not available in arrow function</li><li>Regular function created using function declaration or expressions, Arrow function we can declar without unsing function key word.</li> <li>we don't use constarction in arraw function</li><li>Arrow function do not have there own this </li><li>Implicitly return by Arrow function.</li> <li>Arrow functions cannot be accessed before initialization </li></ul></div>"
     },
     {
+      "question": "Explain what the first-class function in JavaScript is?",
+      "type": "javascript",
+      "answer": "<div>The first-class functions in JavaScript are treated like any other variable. These first-class functions can be passed as a parameter to any other function or return any other function.</ul></div>"
+    },
+    {
       "question": "Explain call(), apply() and, bind() methods?",
       "type": "javascript",
       "answer": "<div > <ul> <li><b>call(): </b> It’s a predefined method in javascript. call will call a particular function with the given this.</li> <li><b>apply():</b>The apply method is similar to the call() method. The only difference is that, call() method takes arguments separately whereas, apply() method takes arguments as an array.</li> <li><b>bind():</b> bind will attact given this keyword with function and return a new function..</li> </ul> </div>"
@@ -278,6 +283,11 @@
       "question": "Why does Google use the V8 engine for Node.js??",
       "type": "node",
       "answer": "<div> The V8 engine is an open-source JavaScript engine developed by Google that is written in C++. </div>"
+    },
+    {
+      "question": "Explain different core modules in Node.js?",
+      "type": "node",
+      "answer": "<div> <ul><li><strong> assert </strong>- Provides a set of assertion tests. </li> <li><strong> buffer </strong>- To handle binary data. </li> <li><strong> child_process </strong>- To spawn child processes. </li> <li><strong> cluster </strong>- To create a single instance of Node.js that runs on multiple CPU cores. </li> <li><strong> console </strong>- For printing to stdout and stderr. </li> <li><strong> crypto </strong>- For cryptographic functionalities. </li> <li><strong> dgram </strong>- For UDP/datagram sockets. </li> <li><strong> dns </strong>- For DNS resolution. </li> <li><strong> domain </strong>- To handle multiple different I/O operations as a single group. </li> <li><strong> events </strong>- For event-driven programming. </li> <li><strong> fs </strong>- For interacting with the file system. </li> <li><strong> http </strong>- To create HTTP servers and clients. </li> <li><strong> https </strong>- To create HTTPS servers and clients. </li> <li><strong> net </strong>- For creating servers and clients. </li> <li><strong> os </strong>- To provide operating system-related utility methods and properties. </li> <li><strong> path </strong>- For handling and transforming file paths. </li> <li><strong> punycode </strong>- To convert Unicode strings to ASCII and vice versa. </li> <li><strong> querystring </strong>- For parsing and formatting URL query strings. </li> <li><strong> readline </strong>- For reading from a readable stream one line at a time. </li> <li><strong> repl </strong>- For a Read-Eval-Print -Loop (REPL) implementation. </li> <li><strong> stream </strong>- For handling streaming data. </li> <li><strong> string_decoder </strong>- For decoding buffer objects into strings. </li> <li><strong> timers </strong>- For executing a function after a set period of time. </li> <li><strong> tls </strong>- For implementing TLS and SSL protocols. </li> <li><strong> tty </strong>- For TTY (terminal) functionality. </li> <li><strong> url </strong>- For URL resolution and parsing. </li> <li><strong> util </strong>- For utility functions that are primarily useful for developers. </li> <li><strong> v8 </strong>- For accessing V8 engine specific functionality. </li> <li><strong> vm </strong>- For compiling and running code within V8 Virtual Machine contexts. </li> <li><strong> zlib </strong>- For compression and decompression. </li></ul> </div>"
     },
     {
       "question": "If Node.js is single-threaded, then how does it handle concurrency?",
@@ -435,6 +445,11 @@
       "answer": "<div class=''> Both these methods are used to create new child processes the only difference between them is that spawn() method creates a new function that Node runs from the command line whereas fork() function creates an instance of the existing fork() method and creates multiple workers to perform on the same task. </div>"
     },
     {
+      "question": "What do you mean by I/O?",
+      "type": "node",
+      "answer": "<div class=''> Node. js uses an event-driven, non-blocking I/O model. I/O stands for input/output, which helps write and read files and network operations. </div>"
+    },
+    {
       "question": "What is assert/assertion method?",
       "type": "node",
       "answer": "<div> assert() Function. The assert module provides a set of assertion functions for verifying invariants. In assert() function, if the value is not truth, then a AssertionError is thrown with a message property set equal to the value of the message parameter.</br></br><table class=''> <tbody><tr> <th>Method</th> <th>Description</th> </tr> <tr> <td><a href='met_assert.asp'>assert()</a></td> <td>Checks if a value is true. Same as assert.ok()</td> </tr> <tr> <td><a href='met_assert_deepequal.asp'>deepEqual()</a></td> <td>Checks if two values are equal</td> </tr> <tr> <td><a href='met_assert_deepstrictequal.asp'>deepStrictEqual()</a></td> <td>Checks if two values are equal, using the strict equal operator (===)</td> </tr> <tr> <td>doesNotThrow()</td> <td>&nbsp;</td> </tr> <tr> <td><a href='met_assert_equal.asp'>equal()</a></td> <td>Checks if two values are equal, using the equal operator (==)</td> </tr> <tr> <td>fail()</td> <td>Throws an Assertion Error</td> </tr> <tr> <td>ifError()</td> <td>Throws a specified error if the specified error evaluates to true</td> </tr> <tr> <td><a href='met_assert_notdeepequal.asp'>notDeepEqual()</a></td> <td>Checks if two values are not equal</td> </tr> <tr> <td><a href='met_assert_notdeepstrictequal.asp'>notDeepStrictEqual()</a></td> <td>Checks if two values are not equal, using the strict not equal operator (!==)</td> </tr> <tr> <td><a href='met_assert_notequal.asp'>notEqual()</a></td> <td>Checks if two values are not equal, using the not equal operator (!=)</td> </tr> <tr> <td><a href='met_assert_notstrictequal.asp'>notStrictEqual()</a></td> <td>Checks if two values are not equal, using the strict not equal operator (!==)</td> </tr> <tr> <td><a href='met_assert_ok.asp'>ok()</a></td> <td>Checks if a value is true</td> </tr> <tr> <td><a href='met_assert_strictequal.asp'>strictEqual()</a></td> <td>Checks if two values are equal, using the strict equal operator (===)</td> </tr> <tr> <td>throws()</td> <td>&nbsp;</td> </tr> </tbody></table></div>"
@@ -511,6 +526,18 @@
       "answer": "<div className='node-answer'>ORM is the process of mapping between objects and relational database systems. </div>"
     },
     {
+      "question": "What is piping in Node.js?",
+      "type": "node",
+      "answer": "<div className='node-answer'>Piping is a mechanism used to connect the output of one stream to another stream. The main purpose of the piping is to retrieve data from one stream and pass it to another stream. </div>"
+    },
+    {
+      "question": "What is the preferred method of resolving unhandled exceptions in Node.js?",
+      "type": "node",
+      "answer": "<div className='node-answer'>Unhandled exceptions in Node.js can be caught at the Process level by attaching a handler for uncaughtException event. <pre><code >process.on('uncaughtException', (err) =&gt; { </br> console.log(`Caught exception: ${err}`); </br>});</code></pre> </div>"
+    },
+
+    
+    {
       "question": "How would you connect a MongoDB database to Node.js?",
       "type": "node",
       "answer": "<div>const mongoose = require('mongoose'); </br> mongoose.connect(url, options); </div>"
@@ -523,8 +550,13 @@
     {
       "question": "What is Debugger?",
       "type": "node",
-      "answer": ""
+      "answer": "The debugger keyword is used in the code to force stop the execution of the code at a breaking point and calls the debugging function. The debugger function is executed if any debugging is needed at all else no action is performed."
     },
+    {
+      "question": "What is a Node Inspector?",
+      "type": "node",
+      "answer": "<p>A Node-Inspector is a debugging tool that allows developers to inspect and debug the code of an application through a graphical user interface.</p>"
+    },    
     {
       "question": "What is Crypto?",
       "type": "node",
