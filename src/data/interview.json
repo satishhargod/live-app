@@ -80,6 +80,12 @@
       "answer": "<div >TypeScript is a strongly typed, object oriented, compiled language. It's  free and open-source high-level programming language developed by Microsoft. TypeScript always highlights errors at compilation time during the time of development</div>"
     },
     {
+      "question": "What is Decorators in Type Script?",
+      "type": "javascript",
+      "answer": "<div > Decorators are a feature in TypeScript that allows you to add metadata and modify the behavior of classes, methods, properties, and parameters at compile time. Decorators are functions that are prefixed with the @ symbol.</div>"
+    },
+   
+    {
       "question": "Type Script Vs JavaScript?",
       "type": "javascript",
       "answer": "<div > TypeScript is an object-oriented programming language developed by Microsoft Corporation, whereas JavaScript is the programming language for the web. TypeScript always highlights errors at compilation time during the time of development, whereas JavaScript points out errors at the runtime. TypeScript takes a long time to compile the code. TypeScript does not support abstract classes.</div>"
@@ -108,7 +114,12 @@
       "question": "Implicit vs. Explicit Conversion?",
       "type": "javascript",
       "answer": "<div > Implicit - Implicit type conversion is when JavaScript automatically converts a value to a different data type based on the context </br> let num = 42 + true;  // 43 </br> Explicit - explicit convert a value to a specific data type </br> let num = parseInt('42');  // 42</div>"
-    },    
+    },  
+    {
+      "question": "Explain the difference between mutable and immutable objects.?",
+      "type": "javascript",
+      "answer": "<div > A mutable object can be changed after it's created, and an immutable object can't. </br> For more learn - https://www.freecodecamp.org/news/mutability-vs-immutability-in-javascript/ </div>"
+    },      
     {
       "question": "What is a generator function in javascript?",
       "type": "javascript",
@@ -165,6 +176,11 @@
       "answer": "<div><ul> <li>indexOf() returns the position of the first occurrence of a value in a string. The indexOf() method returns -1 if the value is not found. The indexOf() method is case sensitive.</li>  <li>search() searches a string for a value and returns the position of the first match:</li></ul></div>"
     },  
     {
+      "question": "Prototype chaining in javascript?",
+      "type": "javascript",
+      "answer": "<div><ul> <li>indexOf() returns the position of the first occurrence of a value in a string. The indexOf() method returns -1 if the value is not found. The indexOf() method is case sensitive.</li>  <li>search() searches a string for a value and returns the position of the first match:</li></ul></div>"
+    },
+    {
       "question": "JavaScripts array method?",
       "type": "javascript",
       "answer": "<div><ul> <li>[1,2,3].length; //? 3</li> <li>[1,2,3].push(4); //? [1,2,3,4] </li> <li> [1,2,3]. unshift(0); //? [0,1,2,3] *</li> <li>[1,2,3].pop(); //? [1,2] *</li> <li>[1,2,3]. shift(); //? [2,3] *</li> <li>[1,2,3].at(2); //? 3</li> <li>[1,2,3].indexOf(3); //? 2</li> <li>[1,2,3]. includes (3); //? true</li> <li>[1,2,3].map((num) => Math.pow(num, 2)); //? [1, 4, 9]</li> <li>[1,2,3].filter((num) => num % 2); //? [1,3] [1,2,3]. every ((num) => num > 1); //? false [1,2,3]. some ( (num) => num == 3); //? true</li> <li>[1,2,3]. fill(10); //? [10, 10, 10]</li> <li>[1,2,3]. reduce ((acc, num) => acc + num, 0); //? 6 [1,2,3].concat([4,5]); //? [1,2,3,4,5]</li> <li>[1,2,3]. reverse(); //? [3,2,1]</li> <li>[2,1,3].sort(); //? [1,2,3]</li> <li>[1,2,3].join('-'); //? 1-2-3</li> <li>[1,2, [3]]. flat(); //? [1,2,3]</li> <li>[1,2,3]. findIndex ((num) => num === 2); //? 1</li> <li>[1,2,3].find((num, i) => i === 1); //? 2</li> <li>[1,2,3].toString(); //? 1,2,3</li> <li>[1,2,3].slice(1,3); //? [2,3]</li> <li>[1,4].splice(1, 0, 2, 3); //? [1,2,3,4]</li> <li>Array.isArray('[1,2,3]'); //? false </li> <li>Array.from('123'); //? ['1', '2', '3']</li></ul></div>"
@@ -179,6 +195,12 @@
       "type": "javascript",
       "answer": "<div><ul><li>Argument object not available in arrow function</li><li>Regular function created using function declaration or expressions, Arrow function we can declar without unsing function key word.</li> <li>we don't use constarction in arraw function</li><li>Arrow function do not have there own this </li><li>Implicitly return by Arrow function.</li> <li>Arrow functions cannot be accessed before initialization </li></ul></div>"
     },
+    {
+      "question": "When to use which normal funcation and arrow funcation",
+      "type": "javascript",
+      "answer": "<div><ul><li>Use arrow functions for concise, simple functions that don’t require their own this binding or other special features.</li><li>Use regular functions when you need more control over this, when defining methods within classes, or when working with constructor functions.</li><li>Both arrow functions and normal functions are usually equally fast. In some cases, arrow functions might be a bit faster due to their simpler structure.</li></ul></div>"
+    },
+    
     {
       "question": "Explain what the first-class function in JavaScript is?",
       "type": "javascript",
@@ -262,7 +284,7 @@
     {
       "question": "What is Node.js? Where can you use it?",
       "type": "node",
-      "answer": "Node.js is written in C, C++, and JavaScript. it's a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It runs on the V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications."
+      "answer": "Node.js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It allows you to run JavaScript outside of your browser. Written in C, C++, and JavaScript, Node.js operates on the V8 JavaScript runtime engine and uses an event-driven, non-blocking I/O architecture. This makes it efficient and ideal for real-time applications."
     },
     {
       "question": "Why use Node.js?",
@@ -299,6 +321,11 @@
       "type": "node",
       "answer": "<div >Node.js is widely used in the following applications:<ul><li>Real-timechats</li><li>InternetofThings</li><li>ComplexSPAs(Single-PageApplications)</li><li>Real-timecollaborationtools</li><li>Streamingapplications</li><li>Microservicesarchitecture</li></ul></div>"
     },
+    {
+      "question": "How to Optimizing Node.js Performance?",
+      "type": "node",
+      "answer": "<div ><ul><li>Optimizing Asynchronous Operations and Event Loops - Node.js uses an event-driven, non-blocking I/O model, making it essential to handle asynchronous operations efficiently. </br> Using Promises and async/await can simplify asynchronous code and make it more readable. </br> Avoid synchronous operations that block the event loop. For example, use fs.promises instead of synchronous fs methods. </li><li>Use Efficient Data Structures :- Choose the right data structures for your use case. For instance, use Buffer for handling binary data instead of strings.</li><li>Use ClusteringLeverage Node.js's built-in clustering module to utilize multiple CPU cores. This allows your application to handle more requests simultaneously.</li><li>Avoid Memory Leaks - Monitor and fix memory leaks by using tools like node --inspect, Chrome DevTools, or heapdump. Ensure that you are properly managing memory and avoiding global variables.</li><li>Use Streams for Large Data - Use Node.js streams for handling large data sets to improve memory efficiency and performance.</li><li>Implement Caching :- Use caching mechanisms like Redis or in-memory caches to store frequently accessed data and reduce database load.</li><li>Use Lightweight Middleware-Minimize the use of heavy middleware in your Express or other frameworks. Only include necessary middleware for specific routes.</li> <li>Use compression middleware like compression to reduce the size of the response bodies.</li></ul></div>"
+    }, 
     {
       "question": "Explain the difference between frontend and backend development?",
       "type": "node",
@@ -605,6 +632,11 @@
       "answer": "GET POST PUT PATCH DELETE"
     },
     {
+      "question": "Difference Between PUT and PATCH Request?",
+      "type": "node",
+      "answer": "<div><p><strong>PUT and PATCH are two methods that are often used for updating resources on the server.</strong> However, they differ in their approach.</p><h3 id='put'>PUT</h3><p><strong>PUT is used to replace an existing resource with a completely new one</strong>. In other words, if you send a PUT request to update a resource, the server will completely replace the existing resource with the new one. </p><p>For example, let's say you have a user profile with fields for <code>name</code>, <code>email</code>, and <code>password</code>. If you use PUT to update the profile, you’ll have to send the updated values for all three fields: <code>name</code>, <code>email</code>, and <code>password</code>.</p><h3 id='patch'>PATCH</h3><p>On the other hand, <strong>PATCH is used to</strong> <strong>make a </strong><em><strong>partial</strong></em><strong> update to an existing resource</strong>. In other words, if you send a PATCH request to update a resource, the server will <em>only</em> update the specified fields in the existing resource. </p><p>So if you only want to update the <code>email</code> field <em>only</em>, you would send just that field with the new value. The server then applies the changes you specified and leaves the rest of the resource unchanged.</p></div>"
+    },    
+    {
       "question": "Payment methods?",
       "type": "node",
       "answer": ""
@@ -650,11 +682,6 @@
       "answer": "<ul> <li>Initial Phase <ul> <li>getDefaultProps()</li> <li>getInitialState()</li> </ul> </li> <li>Mounting Phase <ul> <li> componentWillMount() </li> <li> componentDidMount() </li> <li> render() </li> </ul> </li> <li>Updating Phase <ul> <li> componentWillRecieveProps() </li> <li> componentWillUpdate() </li> <li> render() </li> <li> componentDidUpdate() </li> </ul> </li> <li>Unmounting Phase <ul> <li> componentWillUnmount() </li> </ul> </li> </ul>"
     },
     {
-      "question": "Hooks in react?",
-      "type": "react",
-      "answer": ""
-    },
-    {
       "question": "Class component?",
       "type": "react",
       "answer": ""
@@ -668,11 +695,6 @@
       "question": "Class component and function component?",
       "type": "react",
       "answer": "<div><table class=''> <colgroup> <col> <col> </colgroup> <tbody> <tr> <th class='' ><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><strong> &nbsp;</strong><a href='https://www.geeksforgeeks.org/reactjs-functional-components/' rel='noopener'><strong>Functional Components</strong></a><strong> &nbsp; &nbsp;&nbsp;</strong><span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></th> <th class=''><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><strong> </strong><a href='https://www.geeksforgeeks.org/reactjs-class-based-components/' rel='noopener'><strong>Class Components</strong></a><strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong></th> </tr> <tr> <td class=''><span>A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX).</span></td> <td class=''><span>A class component requires you to extend from React. Component and create a render function that returns a React element.</span></td> </tr> <tr> <td class=''><span>There is no render method used in functional components.</span></td> <td class=''><span>It must have the render() method returning JSX (which is syntactically similar to HTML)</span></td> </tr> <tr> <td class=''><span>Functional components run from top to bottom and once the function is returned it can’t be kept alive.</span></td> <td class=''><span>The class component is instantiated and different life cycle method is kept alive and is run and invoked depending on the phase of the class component.</span></td> </tr> <tr> <td class=''><span>Also known as Stateless components as they simply accept data and display them in some form, they are mainly responsible for rendering UI.</span></td> <td class=''><span>Also known as Stateful components because they implement logic and state.</span></td> </tr> <tr> <td class=''><span>React lifecycle methods (for example, componentDidMount) cannot be used in functional components.</span></td> <td class=''><span>React lifecycle methods can be used inside class components (for example, componentDidMount).</span></td> </tr> <tr> <td class=''> <p><span>Hooks can be easily used in functional components to make them Stateful.</span></p> <p><span>Example: </span></p> <pre><span>const [name,SetName]= React.useState(' ')</span></pre> </td> <td class=''> <p><span>It requires different syntax inside a class component to implement hooks.</span></p> <p><span>Example: </span></p> <pre><span>constructor(props) {</span><br><span>&nbsp; &nbsp;super(props);</span><br><span>&nbsp; &nbsp;this.state = {name: ' '}</span><br><span>}</span></pre> </td> </tr> <tr> <td class=''><span>Constructors are not used.</span></td> <td class=''><span>Constructor is used as it needs to store state.&nbsp;</span></td> </tr> </tbody> </table> </div>"
-    },
-    {
-      "question": "UseEffect?",
-      "type": "react",
-      "answer": ""
     },
     {
       "question": "Real dom and virtule dom and its role?",
@@ -743,13 +765,24 @@
     {
       "question": "Explain “controlled” and “uncontrolled” components.",
       "type": "react",
-      "answer": ""
+      "answer": "In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself. To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM."
     },
     {
       "question": "What are React Hooks? Give an example of a Hook you have used ‘and explain its purpose.",
       "type": "react",
       "answer": ""
     },
+    {
+      "question": "UseEffect?",
+      "type": "react",
+      "answer": ""
+    },
+    {
+      "question": "Explain UseEffect(), UseCallback() & UseMemo(). What are the differences?",
+      "type": "react",
+      "answer": ""
+    },
+    
     {
       "question": "Explain the difference between server-side. rendering and client-side rendering in React.?",
       "type": "react",
@@ -768,13 +801,9 @@
     {
       "question": "Explain the Higher Order Components (Hoc) concept in React.?",
       "type": "react",
-      "answer": ""
+      "answer": "Higher-order components (HOCs) are a powerful feature of the React library. They allow you to reuse component logic across multiple components. In React, a higher-order component is a function that takes a component as an argument and returns a new component that wraps the original component."
     },
-    {
-      "question": "Explain UseEffect(), UseCallback() & UseMemo(). What are the differences?",
-      "type": "react",
-      "answer": ""
-    },
+   
     {
       "question": "Explain how React handles forms and form validation.?",
       "type": "react",
@@ -786,14 +815,34 @@
       "answer": ""
     },
     {
-      "question": "Have you ever worked with GraphQL in a React project? If so, give an example of a query or mutation you have implemented?",
-      "type": "react",
-      "answer": ""
-    },
-    {
       "question": "New",
       "type": "react",
       "answer": ""
+    }, 
+    {
+      "question": "Sql interview",
+      "type": "react",
+      "answer": "<a href='https://www.simplilearn.com/top-sql-interview-questions-and-answers-article'>Sql question and answer</a>"
+    },
+    {
+      "question": "What is an SQL injection?",
+      "type": "react",
+      "answer": "SQL injection is a cybersecurity attack method that involves the insertion of malicious SQL code into an application's input fields or parameters. This unauthorized action enables attackers to illicitly access a database, extract confidential information, or manipulate data."
+    },
+    {
+      "question": "SQL Event",
+      "type": "sql",
+      "answer": "In SQL, an event is a scheduled task that runs at specified times or intervals. It's similar to a cron job in Unix-based systems. SQL events are particularly useful for automating repetitive database tasks, such as cleaning up old data, updating statistics, or performing routine backups."
+    },
+    {
+      "question": "SQL trigger",
+      "type": "sql",
+      "answer": "A SQL trigger is a special kind of stored procedure that automatically runs when certain events occur in the database. Triggers can be defined to execute in response to actions such as INSERT, UPDATE, or DELETE operations on a table. They are used to enforce business rules, maintain audit trails, and synchronize tables."
+    },
+    {
+      "question": "SQL Transaction",
+      "type": "sql",
+      "answer": "In simple terms, a transaction in SQL is a sequence of one or more SQL operations (such as SELECT, INSERT, UPDATE, DELETE) that are executed as a single unit of work. Transactions ensure that all operations within the sequence are completed successfully; if any operation fails, the entire transaction is rolled back, and the database remains unchanged."
     },
     {
       "question": "SQL insert query?",
@@ -891,8 +940,13 @@
       "answer": "<div className='sql-box'>Please write the mail for cancel my interview because i am not available. Beacuse my BA and TL plan to discuss new module on tomorrow morning  </div>"
     },
     {
-      "question": "Test",
+      "question": "SQL query to find second highest salary?",
       "type": "sql",
-      "answer": ""
+      "answer": "<div className='sql-box'>Please write the mail for cancel my interview because i am not available. Beacuse my BA and TL plan to discuss new module on tomorrow morning  </div>"
+    },
+    {
+      "question": "What is the difference between WHERE and HAVING in SQL?",
+      "type": "sql",
+      "answer": "The main difference between WHERE and HAVING clause is that the WHERE clause allows you to filter data from specific rows (individual rows) from a table based on certain conditions. In contrast, the HAVING clause allows you to filter data from a group of rows in a query based on conditions involving aggregate values."
     }
   ]

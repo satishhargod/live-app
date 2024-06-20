@@ -12,6 +12,7 @@ import parse from 'html-react-parser';
 //   getInterview
 // } from './fetchdata'
 import interviewData from './data/interview.json';
+import officailyData from './data/officialyenglish.json';
 
 function App() {
   const [sentence, setSentence] = useState([]);
@@ -208,10 +209,11 @@ async function getInterview() {
         stories: false,
         interview: false
       })
-      getOfficaily()
-        .then((data) => {
-          setSentence(data);
-        })
+      setSentence(officailyData)
+      // getOfficaily()
+      //   .then((data) => {
+      //     setSentence(data);
+      //   })
     }
     if (event.target.value == "stories") {
       setDivActive({
