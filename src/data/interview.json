@@ -28,7 +28,12 @@
       "question": "Project Challenges",
       "type": "javascript",
       "answer": "<div class='markdown prose w-full break-words dark:prose-invert light'><p>We are facing issues with generating dynamic reports. These reports are created based on dynamic option selections, adding dynamic snippets and text. This causes many design problems, such as spacing issues, page breaks, and content shifts because the client makes too many changes at runtime.</p> <p>Additionally, we have another challenge: the client wants this project to function offline as well. To address this, I worked on the backend for syncing management, and my colleague worked on Electron. In this module, we created APIs for syncing logs according to the user's offline activity. Electron stores all offline activity locally, and when the user comes online, the data is synced with the online database.</p></div>"
-    },  
+    }, 
+    {
+      "question": "Need to add",
+      "type": "javascript",
+      "answer": "<div> 1. debouncing</div>"
+    },   
     {
       "question": "http and https difference",
       "type": "javascript",
@@ -282,6 +287,12 @@
       "answer": "<div > Synchronous means we can execute one after another<br /> Asynchronous means we can run mutiple task parallely <br /> Synchronous: These API functions are used for blocking code. <br /> Asynchronous: These API functions are used for non-blocking code.</div>"
     },
     {
+      "question": "How do you handle asynchronous operations in Node.js?",
+      "type": "javascript",
+      "answer": "<div > Using callback promises and async await explain every think</div>"
+    },
+    
+    {
       "question": "What is Node.js? Where can you use it?",
       "type": "node",
       "answer": "Node.js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It allows you to run JavaScript outside of your browser. Written in C, C++, and JavaScript, Node.js operates on the V8 JavaScript runtime engine and uses an event-driven, non-blocking I/O architecture. This makes it efficient and ideal for real-time applications."
@@ -449,7 +460,7 @@
     {
       "question": "What is a cluster in Node.js?",
       "type": "node",
-      "answer": "<div class=''> Node.js is a single-threaded machine that uses javascript as its scripting language. Due to a single thread in node.js, it handles memory more efficiently because there are no multiple threads due to which no thread management is needed. Now to handle workload efficiently and to take advantage of computer multi-core systems, cluster modules are created that provide us the way to make child processes that run simultaneously with a single parent process. Each child process (more specifically worker process) has its own event loop, memory, V8 instance, and shares the same server port.  <ul> <li><strong>fork()</strong>: This creates a new child process from master.</li> <li><strong>isMaster</strong>: This returns true if current process is master or else false.</li> <li><strong>isWorker</strong>: This returns true if current process is worker or else false.</li> <li><strong>process</strong> : This returns the child process which is global.</li> <li><strong>send()</strong>: This sends a message from worker to master or vice versa.</li> <li><strong>kill()</strong>: This is use to kill the current worker.</li> <li><strong>isDead</strong>: This returns true if current worker is dead or else false.</li> <li><strong>id</strong>: This is a unique id for worker.</li> <li><strong>settings</strong>: This returns an object containing cluster settings.</li> <li><strong>worker</strong>: This returns the current worker process.</li> <li><strong>workers</strong>: This returns all the workers of a process.</li> <li><strong>isConnected</strong>: This returns true if a current worker is connected to its master or else false.</li> <li><strong>disconnect()</strong>: This is to disconnect all workers.</li> </ul></div>"
+      "answer": "<div class=''> Node.js runs on a single thread and uses JavaScript for scripting. Because it uses just one thread, Node.js manages memory more efficiently without the need for multiple threads and thread management. </br> </br> To handle heavy workloads and use multi-core processors effectively, Node.js has cluster modules. These modules allow us to create child processes that run at the same time as the main process. Each child process (called a worker process) has its own event loop, memory, and V8 instance, but they all share the same server port. <ul> <li><strong>fork()</strong>: This creates a new child process from master.</li> <li><strong>isMaster</strong>: This returns true if current process is master or else false.</li> <li><strong>isWorker</strong>: This returns true if current process is worker or else false.</li> <li><strong>process</strong> : This returns the child process which is global.</li> <li><strong>send()</strong>: This sends a message from worker to master or vice versa.</li> <li><strong>kill()</strong>: This is use to kill the current worker.</li> <li><strong>isDead</strong>: This returns true if current worker is dead or else false.</li> <li><strong>id</strong>: This is a unique id for worker.</li> <li><strong>settings</strong>: This returns an object containing cluster settings.</li> <li><strong>worker</strong>: This returns the current worker process.</li> <li><strong>workers</strong>: This returns all the workers of a process.</li> <li><strong>isConnected</strong>: This returns true if a current worker is connected to its master or else false.</li> <li><strong>disconnect()</strong>: This is to disconnect all workers.</li> </ul></div>"
     },
     {
       "question": "How would you enhance Node.js performance?",
@@ -479,10 +490,15 @@
     {
       "question": "What is assert/assertion method?",
       "type": "node",
-      "answer": "<div> assert() Function. The assert module provides a set of assertion functions for verifying invariants. In assert() function, if the value is not truth, then a AssertionError is thrown with a message property set equal to the value of the message parameter.</br></br><table class=''> <tbody><tr> <th>Method</th> <th>Description</th> </tr> <tr> <td><a href='met_assert.asp'>assert()</a></td> <td>Checks if a value is true. Same as assert.ok()</td> </tr> <tr> <td><a href='met_assert_deepequal.asp'>deepEqual()</a></td> <td>Checks if two values are equal</td> </tr> <tr> <td><a href='met_assert_deepstrictequal.asp'>deepStrictEqual()</a></td> <td>Checks if two values are equal, using the strict equal operator (===)</td> </tr> <tr> <td>doesNotThrow()</td> <td>&nbsp;</td> </tr> <tr> <td><a href='met_assert_equal.asp'>equal()</a></td> <td>Checks if two values are equal, using the equal operator (==)</td> </tr> <tr> <td>fail()</td> <td>Throws an Assertion Error</td> </tr> <tr> <td>ifError()</td> <td>Throws a specified error if the specified error evaluates to true</td> </tr> <tr> <td><a href='met_assert_notdeepequal.asp'>notDeepEqual()</a></td> <td>Checks if two values are not equal</td> </tr> <tr> <td><a href='met_assert_notdeepstrictequal.asp'>notDeepStrictEqual()</a></td> <td>Checks if two values are not equal, using the strict not equal operator (!==)</td> </tr> <tr> <td><a href='met_assert_notequal.asp'>notEqual()</a></td> <td>Checks if two values are not equal, using the not equal operator (!=)</td> </tr> <tr> <td><a href='met_assert_notstrictequal.asp'>notStrictEqual()</a></td> <td>Checks if two values are not equal, using the strict not equal operator (!==)</td> </tr> <tr> <td><a href='met_assert_ok.asp'>ok()</a></td> <td>Checks if a value is true</td> </tr> <tr> <td><a href='met_assert_strictequal.asp'>strictEqual()</a></td> <td>Checks if two values are equal, using the strict equal operator (===)</td> </tr> <tr> <td>throws()</td> <td>&nbsp;</td> </tr> </tbody></table></div>"
+      "answer": "<div> fs. readFile reads the entire file into memory, making it suitable for smaller files. In contrast, fs. createReadStream reads the file in chunks, which is more efficient for handling larger files.</div>"
     },
     {
       "question": "What are streams in Node.js?",
+      "type": "node",
+      "answer": " <div className='node-answer'>Streams are objects that enable you to read data or write data continuously and listening to music or watching video in ‘real time’, instead of downloading a file to your computer and watching it later.. </br></br>There are four types of streams: <ul><li>Readable – Used for reading operations</li><li>Writable − Used for write operations</li><li>Duplex − Can be used for both reading and write operations</li><li>Transform − A type of duplex stream where the output is computed based on input</li></ul> <ul> <b>readFile : -</b> <li> It reads the file into the memory before making it available to the user.</li> <li>It is slower due to read of whole file.</li> <li>Due to its property, it is easier for nodejs to handle cleaning of memory in this case.</li></ul> <ul><b>createReadStream : -</b><li> It reads the file in chunks according to a need by the user.</li> <li> It reads the file in chunks according to a need by the user.</li><li>It is faster due to its property of bringing in chunks.</li><li>In this case memory cleaning by nodejs is not easy.</li></ul> </br></br>Each type of Stream is an EventEmitter instance and throws several events at</br></br> different instance of times. For example, some of the commonly used events are — <li>data ~ This event is fired when there is data is available to read.</li> <li>end ~ This event is fired when there is no more data to read,</li> <li>error ~ This event is fired when there is any error receiving or writing data</li> <li>finish ~ This event is fired when all the data has been flushed to underlying system</li> </div>"
+    },
+    {
+      "question": "Explain the difference between fs.readFile and fs.createReadStream?",
       "type": "node",
       "answer": " <div className='node-answer'>Streams are objects that enable you to read data or write data continuously and listening to music or watching video in ‘real time’, instead of downloading a file to your computer and watching it later.. </br></br>There are four types of streams: <ul><li>Readable – Used for reading operations</li><li>Writable − Used for write operations</li><li>Duplex − Can be used for both reading and write operations</li><li>Transform − A type of duplex stream where the output is computed based on input</li></ul> <ul> <b>readFile : -</b> <li> It reads the file into the memory before making it available to the user.</li> <li>It is slower due to read of whole file.</li> <li>Due to its property, it is easier for nodejs to handle cleaning of memory in this case.</li></ul> <ul><b>createReadStream : -</b><li> It reads the file in chunks according to a need by the user.</li> <li> It reads the file in chunks according to a need by the user.</li><li>It is faster due to its property of bringing in chunks.</li><li>In this case memory cleaning by nodejs is not easy.</li></ul> </br></br>Each type of Stream is an EventEmitter instance and throws several events at</br></br> different instance of times. For example, some of the commonly used events are — <li>data ~ This event is fired when there is data is available to read.</li> <li>end ~ This event is fired when there is no more data to read,</li> <li>error ~ This event is fired when there is any error receiving or writing data</li> <li>finish ~ This event is fired when all the data has been flushed to underlying system</li> </div>"
     },
@@ -592,7 +608,7 @@
     {
       "question": "Explain the use of passport module in Node.js?",
       "type": "node",
-      "answer": "<div>The passport module is used for adding authentication features to our website or web app. It implements authentication measure which helps to perform sign-in operations.</div>"
+      "answer": "<div>The passport module is a popular middleware for authentication in Node.js applications. It provides a flexible and modular way to authenticate users using various strategies such as local authentication, OAuth, OpenID, and many others. Here's a detailed explanation of how and why to use the passport module in a Node.js application</div>"
     },
     {
       "question": "What is TLS/SSL?",
@@ -660,6 +676,11 @@
       "question": "What is error handeller in node js?",
       "type": "node",
       "answer": "<div> <span> NodeJS provides various mechanisms for handling errors, including try/catch blocks, error events, and error-first callbacks.</span> </br><strong>Try/Catch Blocks:</strong> We can handle synchronous errors using try catch block </br><strong>Error Events:</strong> Using on error event notify asynchronously errors </br><strong>Error-First Callbacks:</strong>NodeJS follows the convention of “error-first callbacks,” where callback functions receive an error object as the first argument.</br><strong>Promises:</strong>When using promises in NodeJS, developers can use the .catch() method to handle errors asynchronously. Promises allow for more concise and readable error handling compared to callback-based approaches.</div>"
+    },
+    {
+      "question": "How can debug the error when i api's slow suddenly in node js",
+      "type": "node",
+      "answer": "<div>ChatGPT</div>"
     },
     {
       "question": "What is debounced?",
@@ -820,13 +841,23 @@
       "answer": ""
     }, 
     {
+      "question": "MySQL vs. PostgreSQL: Head-To-Head Comparison",
+      "type": "database",
+      "answer": "<div> <table> <thead> <tr> <th>Feature</th> <th>MongoDB</th> <th>MySQL</th> <th>PostgreSQL</th> </tr> </thead> <tbody> <tr> <td>Type</td> <td>NoSQL and Document-Oriented</td> <td>Relational Database Management System</td> <td>Object-Relational Database Management System</td> </tr> <tr> <td>ACID Compliance</td> <td>Limited, can be improved with multi-document transactions</td> <td>Not completely ACID compliant, supports ACID only when used with InnoDB and NDB</td> <td>Completely ACID compliant</td> </tr> <tr> <td>Performance</td> <td>Fast for write-heavy operations, flexible schema design</td> <td>Fast and efficient for read-heavy operations, simple data transactions</td> <td>Complex and slower than MySQL, excels in handling complex queries</td> </tr> <tr> <td>Privileges</td> <td>Users cannot be assigned object-level privileges</td> <td>Users can be assigned object-level privileges</td> <td>Users can be assigned object-level privileges</td> </tr> <tr> <td>SQL Compliance</td> <td>Only partially SQL compliant</td> <td>Partially SQL compliant</td> <td>Fully SQL compliant</td> </tr> <tr> <td>Language</td> <td>Written in C++</td> <td>Written in C</td> <td>Written in C</td> </tr> <tr> <td>Best Suited For</td> <td>Applications with unstructured data, real-time analytics, IoT</td> <td>Simple operations like read and write, web-based projects requiring simple data transactions</td> <td>Systems performing large and complex queries, data storage and analysis</td> </tr> <tr> <td>Data Types</td> <td>Supports BSON (Binary JSON) format</td> <td>Supports standard data types like string, numeric, date and time</td> <td>Supports standard and advanced data types such as arrays, hstore, and user-defined data types</td> </tr> <tr> <td>Table Inheritance</td> <td>Does not provide table inheritance</td> <td>Does not provide table inheritance</td> <td>Provides table inheritance</td> </tr> <tr> <td>Join Capabilities</td> <td>Limited support for joins</td> <td>Limited join capabilities</td> <td>Supports a variety of joins such as inner join, right join, left join, cross join, full outer join, natural join, and self join</td> </tr> <tr> <td>MVCC (Multi-Version Concurrency Control)</td> <td>Does not provide MVCC</td> <td>Does not provide MVCC</td> <td>Provides MVCC, handles concurrency better than MySQL</td> </tr> <tr> <td>Storage Engine</td> <td>Uses a single storage engine</td> <td>Has a multilayer structure with a set of storage engines</td> <td>Unified database storage server with a single storage engine</td> </tr> <tr> <td>User Interface</td> <td>Provides MongoDB Compass as a user interface</td> <td>Provides MySQL Workbench as a user interface</td> <td>Provides PgAdmin as a user interface</td> </tr> </tbody> </table> </br></br> If you need a feature-rich database laden with advanced functionalities that can handle complex queries and massive databases, you might want to select PostgreSQL. If you are looking for a safe, easy-to-learn, fast, scalable, and reliable option, MySQL is the way to go.<div>  </br></br> "
+    },
+    {
+      "question": "Which database we used and when",
+      "type": "database",
+     "answer":"<ul><li><strong>MongoDB:</strong> It is ideal for applications that require flexible schema, high write throughput, and real-time analytics. MongoDB is excellent at handling unstructured data and provides rich features like built-in sharding and geospatial indexing.</li><li><strong>MySQL:</strong> It is perfect for web applications, e-commerce platforms, and read-heavy operations. MySQL provides reliable performance, strong ACID compliance, and is widely supported by different types of platforms.</li><li><strong>PostgreSQL:</strong> It is a robust choice for applications that require complex queries, data warehousing, and support for advanced data types and full-text search. PostgreSQL combines high performance with extensive features and strong ACID compliance.</li></ul>" 
+    },
+    {
       "question": "Sql interview",
-      "type": "react",
+      "type": "database",
       "answer": "<a href='https://www.simplilearn.com/top-sql-interview-questions-and-answers-article'>Sql question and answer</a>"
     },
     {
       "question": "What is an SQL injection?",
-      "type": "react",
+      "type": "database",
       "answer": "SQL injection is a cybersecurity attack method that involves the insertion of malicious SQL code into an application's input fields or parameters. This unauthorized action enables attackers to illicitly access a database, extract confidential information, or manipulate data."
     },
     {
